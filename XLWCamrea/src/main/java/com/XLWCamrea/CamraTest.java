@@ -25,7 +25,7 @@ public class CamraTest {
 	public int OpenDevice(String IP)
 	{	
 		
-		int Result = 1;
+		int Result = 2;
 		if (MainHandle != null)
 		{
 			return -1;
