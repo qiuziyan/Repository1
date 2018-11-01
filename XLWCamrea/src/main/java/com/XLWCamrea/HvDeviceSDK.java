@@ -29,7 +29,7 @@ public interface HvDeviceSDK extends StdCallLibrary {
     static int CALLBACK_TYPE_RECORD_INFOBEGIN = (int) 0xFFFF0005;
     static int CALLBACK_TYPE_RECORD_INFOEND = (int) 0xFFFF0006;
     static int CALLBACK_TYPE_STRING = (int) 0xFFFF0007;
-    static int CALLBACK_TYPE_JPEG_FRAME = (int) 0xFFFF0008;
+    static int CALLBACK_TYPE_JPEG_FRAME = (int) 0xFFFF0009;
     static int CALLBACK_TYPE_H264_VIDEO = (int) 0xFFFF0009;
     static int CALLBACK_TYPE_HISTORY_VIDEO = (int) 0xFFFF0010;
 
